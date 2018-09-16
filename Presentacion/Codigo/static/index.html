@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presentación</title>
+    <link rel="stylesheet" type="text/css" href="css/retro-joystick.css">
+    <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ciaa.css">
+  </head>
+  <body ng-app="ciaa" class="body">
+    <ciaa-main></ciaa-main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      if ( typeof(require) !== 'undefined' ) {
+        window.ipc = require('ipc');
+      } else {
+        window.socket = io();
+      }
+    </script>
+
+    <script type="text/javascript" src="./vendor/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="./vendor/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="./vendor/blockly/javascript_compressed.js"></script>
+    <script type="text/javascript" src="./vendor/blockly/msg/js/en.js"></script>
+    <script type="text/javascript" src="./js/src/RetroJoyStick.js"></script>
+    <script type="text/javascript" src="js/ace/ace.js"></script>
+
+    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

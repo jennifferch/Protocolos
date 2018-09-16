@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      Blocky Johnny-Five Firmata
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+         <li><a href="http://johnny-five.io/api/" id="docs" target="_blank">Johnny-Five Docs</a></li>
+        </ul>
+      </li>
+      <li><button ng-show="vm.stateParams.workshopId" class="btn btn-primary navbar-btn" ng-click="vm.saveWorkspace()"><i class="fa fa-pencil"></i> Guardar </button></li>
+      <li><button ng-show="vm.stateParams.workshopId" class="btn btn-success navbar-btn" ng-click="vm.executeCode()"><i class="fa fa-play"></i> Ejecutar Codigo</button></li>
+    </ul>
+  </div>
+</nav>
+
+<div ui-view id="ui-view"></div>
+
+<running-controls show="vm.showControls"></running-controls>

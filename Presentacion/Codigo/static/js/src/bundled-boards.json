@@ -1,0 +1,1 @@
+[{"_id":"nxp","name":"Ciaa-NXP","default":true,"code":{"requires":["var five = require(\"johnny-five\");","var controller = require('../controls');"],"boardInit":"var board = new five.Board(opts);","before":["","board.on(\"ready\", function() {"],"after":["});"]}}]

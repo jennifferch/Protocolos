@@ -1,0 +1,86 @@
+.body{
+  background-color: rgb(207, 201, 201);
+}
+
+.navbar {
+  min-height: 60px;
+  margin-bottom: 5px;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+  height: 50px;
+}
+
+.navbar-btn {
+  margin-right: 10px;
+}
+
+.tab-content div {
+  height: 100%;
+}
+
+#code {
+  font-size: 18px;
+}
+
+#exercises {
+    margin: 0;
+}
+
+.exercise-instruction {
+    margin-top: 1.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+    color: #337AB7;
+}
+
+exercise h2 {
+    font-size: 2rem;
+}
+
+#runningWindow .modal-body {
+  min-height: 180px;
+}
+
+#runningWindowControls {
+  display: block;
+  margin: auto;
+  height: 180px;
+  width: 360px;
+  position: relative;
+}
+
+#retrostick-1 {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.red {
+  border: none;
+  display: inline-block;
+  text-indent: -9999px;
+  width: 60px;
+  height: 60px;
+  background: url(../images/red.png);
+  position: absolute;
+  top: 60px;
+  left: 220px;
+}
+
+.red:active, .green:active {
+  opacity: 0.5;
+}
+
+.green {
+  border: none;
+  display: inline-block;
+  text-indent: -9999px;
+  width: 60px;
+  height: 60px;
+  background: url(../images/green.png);
+  position: absolute;
+  top: 40px;
+  left: 290px;
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "protocolos",
+  "title": "Protocolos de Comunicación",
+  "description": "Ejemplo de presentación.",
+  "board": "nxp",
+  "components": [
+    {
+      "name": "servo",
+      "class": "Servo",
+      "config": {
+        "pin": 31,
+        "type": "continuous"
+      }
+    },
+    {
+      "name": "rightServo",
+      "class": "Servo",
+      "config": {
+        "pin": 31,
+        "type": "continuous"
+      }
+    },
+    {
+      "name": "liftServo",
+      "class": "Servo",
+      "config": {
+        "pin": 8,
+        "type": "standard"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "description": "Primera prueba de un servo",
+      "components": [
+        "servo"
+      ],
+      "exercise_blocks" : [
+          {
+              "name": "logic_boolean",
+              "category": "logic"
+          },
+          {
+              "name": "logic_compare",
+              "category": "logic"
+          },
+          {
+              "name": "while_button",
+              "category": "logic"
+          },
+          {
+              "name": "logic_compare",
+              "category": "logic"
+          },
+          {
+              "name": "console_log_value",
+              "category": "value"
+          },
+          {
+              "name": "math_number",
+              "category": "value"
+          },
+          {
+              "name": "text",
+              "category": "value"
+          }
+      ]
+    }
+  ]
+}

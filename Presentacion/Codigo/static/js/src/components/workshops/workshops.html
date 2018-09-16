@@ -1,0 +1,10 @@
+<div class="container">
+	<h2>workshop:</h2>
+	<div class="list-group">
+		<a ui-sref="workshop({workshopId: workshop._id, exercise: 1})"
+			class="list-group-item" ng-repeat="workshop in vm.workshops">
+	    <h4 class="list-group-item-heading">{{workshop.title}}</h4>
+	    <p class="list-group-item-text">{{workshop.description}}</p>
+	  </a>
+	</div>
+</div>
